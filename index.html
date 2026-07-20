@@ -4,54 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Form </title>
 </head>
 
 <body>
     <form action="" method="post">
         <br><div>
-            <label for="">First Name: * </label>
+            <label for="First Name">First Name: * </label>
             <input type="text" placeholder="Please Enter yourfirst  name">
         </div><br>
         <br><div>
-            <label for=""> Last Name: *</label>
+            <label for="Last Name"> Last Name: *</label>
             <input type="text" placeholder="Please Enter your  seconed name">
         </div><br>
         <br><div>
-            <label>Email adress: *</label>
-            <input type="email">
+            <label for="Email" id="Email">Email adress: *</label>
+            <input type="email" placeholder="email">
         </div><br>
 
         <br> <div>
             <label>Password: *</label>
-            <input type="password" placeholder="Password">
+            <input type="password" id="password" placeholder="Password">
         </div><br>
         <br><div>
             <label>Confirm Password: * </label>
-            <input type="password" placeholder="confirm password">
+            <input type="password" id="password" placeholder="confirm password">
         </div><br>
         <br><div>
             <label>BirthDay: *</label>
-            <input type="date">
+            <input type="date" placeholder="date of birth">
         </div><br>
 
-
         <br><div>
-            <label for="gender identity" id="gender identity"> Gender Identify: *</label>
+            <label for="gender_identity" id="gender_identity"> Gender Identify: *</label>
             <input type="radio" name="gender " id="male">
-            <label for="male" name="male" id="male">male</label>
+            <label for="male" name="male">male</label>
             <input type="radio" name="gender ">
-            <label for="female" name="gender " id="female">female</label>
+            <label for="female" name="gender " >female</label>
             <input type="radio" name="gender ">
-            <label for="female" name="gender " id="female">not yet</label>
+            <label for="female" name="gender ">not yet</label>
+            <input type="radio" name="gender ">
+            <label for="female" name="gender ">I prefere not to answer  </label>
         </div><br>
-
-        <br><div><label for=""></label></div><br>
 
         <br><div>
-            <textarea name="comment" id="comment" cols="15" rows="15"> A short discription about my self: </textarea>
+            <label>A short discription about my self:</label>
+            <br><br>
+            <textarea name="comment" id="comment" cols="15" rows="15">  </textarea>
         </div><br>
-
         <br><div> <label for="planguages"> Favotate Language</label>
             <select id="planguages">
                 <option value="Java">Java</option>
@@ -64,10 +64,8 @@
             <Input type="checkbox"> </Input>
             <label for=" ">Yes, I would like to receive periodic email updates</label>
         </div><br>
-
-        <br><div><button> Create account </button></div><br>
+        <div><button> Create account </button></div>
         <br><label> Indicates a required filed *</label><br>
     </form>
 </body>
-
 </html>
